@@ -1,2 +1,27 @@
-This project focuses on predicting passenger survival from the Titanic dataset using machine learning. The main objective was to build and evaluate models that can determine the likelihood of survival based on features such as age, gender, passenger class, and family size. The dataset was thoroughly cleaned by handling missing values, removing irrelevant columns, and engineering new features like total family size. Categorical variables were encoded using both label encoding and one-hot encoding techniques. Several classification algorithms were implemented and compared, including Logistic Regression, K-Nearest Neighbors, Decision Tree, and Naive Bayes. Logistic Regression performed the best, achieving around 80% accuracy. This project provided valuable hands-on experience in data preprocessing, feature engineering, and model evaluation within a practical classification task.
+Titanic Survival Prediction
+
+This project focuses on predicting whether a passenger survived the Titanic disaster using classical machine learning models. The goal was to explore different classification techniques and evaluate their performance. 
+
+## Dataset
+- Source: `train.csv` (from Kaggle)
+
+## Preprocessing
+- Handled missing values.
+- Dropped irrelevant columns.
+- Engineered a new feature.
+- Encoded categorical variables.
+
+## Models Used
+
+- Logistic Regression  
+- K-Nearest Neighbors (KNN)  
+- Decision Tree  
+- Naive Bayes
+
+Each model was trained and evaluated using accuracy and classification metrics like precision, recall, and F1-score.
+
+## Results
+
+All models were compared. Logistic Regression performed the best overall, achieving around 80% accuracy.
+
 
